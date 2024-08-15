@@ -1,16 +1,12 @@
-  import { useState } from 'react'
-  import './App.css'
-  import { Box } from './demo'
+import Demo from "./demo"
+function App() {
 
+  return (
+    <>
+      <h1>this is h1 tag</h1>
+      <Demo />
+    </>
+  )
+}
 
-  function App() {
-    const [count, setCount] = useState(0)
-
-    return (
-      <>
-        <h1 style={{border:'2px solid red',backgroundColor:'yellow'}}>my name is darshan </h1>
-      </>
-    )
-  }
-
-  export default App
+export default App
